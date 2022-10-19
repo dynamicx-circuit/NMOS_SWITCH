@@ -1261,7 +1261,7 @@
     (property "Value" "Q_PNP_BEC" (id 1) (at 116.84 96.5199 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (id 2) (at 116.84 97.79 0)
+    (property "Footprint" "" (id 2) (at 116.84 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 111.76 95.25 0)
@@ -1402,7 +1402,7 @@
   (symbol (lib_id "power:GND") (at 114.3 114.3 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5a27a2c1-51db-45ed-b110-cbaacb5555cb)
-    (property "Reference" "#PWR0103" (id 0) (at 114.3 120.65 0)
+    (property "Reference" "#PWR?" (id 0) (at 114.3 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 111.76 116.84 0))
@@ -1573,7 +1573,7 @@
   (symbol (lib_id "power:GND") (at 194.31 114.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a5411d0c-3733-4a55-8588-4146c6cf8fd3)
-    (property "Reference" "#PWR0106" (id 0) (at 194.31 120.65 0)
+    (property "Reference" "#PWR?" (id 0) (at 194.31 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 194.31 118.11 0))
@@ -1708,7 +1708,7 @@
   (symbol (lib_id "power:GND") (at 204.47 114.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c08f1c1d-5521-43d3-aeec-0c0a5af3edeb)
-    (property "Reference" "#PWR0107" (id 0) (at 204.47 120.65 0)
+    (property "Reference" "#PWR?" (id 0) (at 204.47 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 204.47 118.11 0))
@@ -1743,7 +1743,7 @@
   (symbol (lib_id "power:GND") (at 121.92 114.3 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cc46a473-0a85-4c69-ac19-4269099fbc45)
-    (property "Reference" "#PWR0101" (id 0) (at 121.92 120.65 0)
+    (property "Reference" "#PWR?" (id 0) (at 121.92 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 119.38 116.84 0))
@@ -1798,7 +1798,7 @@
   (symbol (lib_id "power:GND") (at 222.25 114.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid d6048eb6-1093-4467-a7a9-26db19654005)
-    (property "Reference" "#PWR0105" (id 0) (at 222.25 120.65 0)
+    (property "Reference" "#PWR?" (id 0) (at 222.25 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 222.25 118.11 0))
@@ -1852,7 +1852,7 @@
   (symbol (lib_id "power:GND") (at 129.54 114.3 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid f64a4de3-63e0-4c56-b343-643596521d8b)
-    (property "Reference" "#PWR0102" (id 0) (at 129.54 120.65 0)
+    (property "Reference" "#PWR?" (id 0) (at 129.54 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 127 116.84 0))
@@ -1886,7 +1886,7 @@
   (symbol (lib_id "power:GND") (at 104.14 114.3 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fdbd2b6c-9d78-4945-b512-953617c6096a)
-    (property "Reference" "#PWR0104" (id 0) (at 104.14 120.65 0)
+    (property "Reference" "#PWR?" (id 0) (at 104.14 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 101.6 116.84 0))
@@ -1934,26 +1934,26 @@
     (path "/b50b4d58-27cf-4fb2-b21f-653a1c0ec3bf"
       (reference "#PWR012") (unit 1) (value "GND") (footprint "")
     )
-    (path "/cc46a473-0a85-4c69-ac19-4269099fbc45"
-      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/f64a4de3-63e0-4c56-b343-643596521d8b"
-      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
-    )
     (path "/5a27a2c1-51db-45ed-b110-cbaacb5555cb"
-      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/fdbd2b6c-9d78-4945-b512-953617c6096a"
-      (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/d6048eb6-1093-4467-a7a9-26db19654005"
-      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/a5411d0c-3733-4a55-8588-4146c6cf8fd3"
-      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/c08f1c1d-5521-43d3-aeec-0c0a5af3edeb"
-      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/cc46a473-0a85-4c69-ac19-4269099fbc45"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d6048eb6-1093-4467-a7a9-26db19654005"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f64a4de3-63e0-4c56-b343-643596521d8b"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/fdbd2b6c-9d78-4945-b512-953617c6096a"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/736d8bfa-5f3b-422c-9892-520a42aae721"
       (reference "C1") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -1980,7 +1980,7 @@
       (reference "J3") (unit 1) (value "Conn_01x02") (footprint "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical")
     )
     (path "/12ee0378-1204-46e6-a62c-29fb15f253be"
-      (reference "Q1") (unit 1) (value "Q_PNP_BEC") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q1") (unit 1) (value "Q_PNP_BEC") (footprint "")
     )
     (path "/b7658faa-319d-4fb0-bc21-8007e73ac407"
       (reference "Q2") (unit 1) (value "CSD18540Q5B") (footprint "Package_TO_SOT_SMD:TDSON-8-1")
